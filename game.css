@@ -288,3 +288,92 @@ form {
     left: 29%;
   }
 } 
+@media only screen and (max-width: 510px) {
+
+  .container {
+    position: absolute;
+    top: 22%;
+    left: 15%;
+  }
+  table {
+    width: 400px;
+    
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  #clear {
+    position: relative;
+    left: 29%;
+  }
+}
+
+@media only screen and (max-width: 893px) {
+
+  .container {
+    position: absolute;
+    top: 16%;
+    left: 25%;
+  }
+  table {
+    width: 500px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  #clear {
+    position: relative;
+    left: 44%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+
+  .container {
+    position: absolute;
+    top: 20%;
+    left: 18%;
+  }
+  table {
+    width: 250px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  #clear {
+    position: relative;
+    left: 24%;
+    width: 100px;
+  }
+
+  .button {
+    width: 90px;
+    left: 50%;
+  }
+  
+  .button .button__text {
+    transform: translateX(5px);
+    font-weight: 400;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(75px);
+    height: 100%;
+    width: 39px;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .button:hover .button__icon {
+    width: 90px;
+    transform: translateX(0);
+  }
+}
